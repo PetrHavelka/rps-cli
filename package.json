@@ -1,0 +1,21 @@
+{
+  "name": "rps-cli",
+  "license": "MIT",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/petrhavelka/rps-cli.git"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "command-line-args": "^5.0.2",
+    "command-line-usage": "^5.0.5",
+    "moment": "^2.24.0"
+  },
+  "bin": {
+    "rps": "./index.js"
+  }
+}
